@@ -1,0 +1,35 @@
+
+
+
+<suit name="Stock Accounting Test Suit">
+	
+	<test name="Stock Items Test Case with Valid Data">
+	<parameter name="Category" value="nn"></parameter>
+	<parameter name="supnumber" value="12"></parameter>
+	<parameter name="StockName" value="sanju123"></parameter>
+	<parameter name="unitOFmeasure" value="25"></parameter>	
+	<parameter name="PurchasingPrice" value="12000"></parameter>
+	<parameter name="SellingPrice" value="15000"></parameter>
+	<parameter name="Notes" value="0"></parameter>
+	
+		<classes>
+			
+			<class name="TestCases.Add_stock_itemsTest"></class>
+			
+		</classes>
+				
+	</test>
+	
+	<test name="stock item delect test case">
+		
+		<classes>
+			
+			<class name="TestCases.Delect_Stock_item"></class>
+			
+		</classes>
+		
+	</test>
+	
+	
+	
+</suit>
